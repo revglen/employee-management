@@ -1,0 +1,44 @@
+{
+  "employees": [
+    {
+      "id": "1",
+      "name": "John Doe",
+      "email": "john.doe@example.com",
+      "phone": "555-555-5555",
+      "position": "Software Engineer",
+      "department": "Development"
+    },
+    {
+      "id": "2",
+      "name": "Jane Smith",
+      "email": "jane.smith@example.com",
+      "phone": "555-555-1234",
+      "position": "Project Manager",
+      "department": "Management"
+    },
+    {
+      "id": "3",
+      "name": "Sam Wilson",
+      "email": "sam.wilson@example.com",
+      "phone": "555-555-7890",
+      "position": "UI/UX Designer",
+      "department": "Design"
+    },
+    {
+      "id": "4",
+      "name": "Sara Lee",
+      "email": "sara.lee@example.com",
+      "phone": "555-555-4567",
+      "position": "Marketing Specialist",
+      "department": "Marketing"
+    },
+    {
+      "id": "880d",
+      "name": "Glen Saldanha",
+      "email": "revglen@gmail.com",
+      "phone": "087367207",
+      "position": "Something",
+      "department": "Somewhere"
+    }
+  ]
+}

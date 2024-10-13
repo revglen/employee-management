@@ -1,0 +1,29 @@
+<div class="container">
+  <h2>Employee List</h2>
+  <table mat-table [dataSource]="employees">
+    <ng-container matColumnDef="id">
+      <th mat-header-cell *matHeaderCellDef> ID </th>
+      <td mat-cell *matCellDef="let employee"> {{employee.id}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="name">
+      <th mat-header-cell *matHeaderCellDef> Name </th>
+      <td mat-cell *matCellDef="let employee"> {{employee.name}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="email">
+      <th mat-header-cell *matHeaderCellDef> Email </th>
+      <td mat-cell *matCellDef="let employee"> {{employee.email}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="position">
+      <th mat-header-cell *matHeaderCellDef> Position </th>
+      <td mat-cell *matCellDef="let employee"> {{employee.position}} </td>
+    </ng-container>
+
+    <tr mat-header-row *matHeaderRowDef="['id', 'name', 'email', 'position']"></tr>
+    <tr mat-row *matRowDef="let row; columns: ['id', 'name', 'email', 'position'];"></tr>
+  </table>
+
+  <button mat-raised-button color="primary" routerLink="/add-employee">Add Employee</button>
+</div>
